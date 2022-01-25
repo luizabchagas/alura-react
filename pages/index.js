@@ -84,7 +84,8 @@ export default function HomePage() {
             padding: "32px",
             margin: "16px",
             boxShadow: "0 2px 10px 0 rgb(0 0 0 / 20%)",
-            backgroundColor: appConfig.theme.colors.neutrals[700]
+            blurRadius: "10px",
+            backgroundColor: "rgba(255, 255, 255, 0.3)"
           }}
         >
           {/* Formulário */}
